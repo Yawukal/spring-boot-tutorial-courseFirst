@@ -19,7 +19,7 @@ public class StudentController {
 		super();
 		this.studentService = studentService;
 	}
-	
+	// i am doing my first fork on java project i really love this two projects, i would like to say thanks mr developer
 	// handler method to handle list students and return mode and view
 	@GetMapping("/students")
 	public String listStudents(Model model) {
